@@ -6,7 +6,7 @@ public class SingletonClasses {
 	//APPROACH-1:
 	private static SingletonClasses s = new SingletonClasses();//Only one Singleton class object is created.
 	
-	//By declaring constructor as private, no one is allowed to create an object outside of class
+	//By declaring constructor as private, no one is allowed to create an object outside of class yes
 	private SingletonClasses() {
 		
 	}
